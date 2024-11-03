@@ -1,8 +1,6 @@
 'use client'
 import { useFormStatus } from "react-dom";
 import clsx from "clsx";
-import { deleteMood } from "@/lib/action/delete-mood";
-import { FiTrash } from "react-icons/fi";
 
 
 export const SubmitButton = ({label}: {label: string}) => {
